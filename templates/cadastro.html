@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CADASTRO</title>
+</head>
+<body>
+<h1>NOVOS CADASTROS</h1><br><br>
+<form action="/criar" method="post">
+    <h3>Cliente</h3>
+    <fieldset>
+        <div class = "form group">
+            <label for="id_cliente">Identificação Novo Cliente:</label>
+            <input type="text" id="id_cliente" name="id_cliente"><br><br>
+        </div>
+        <div class = "form group">
+            <label for="nome_cliente">Nome/Apelido:</label>
+            <input type="text" id="nome_cliente" name="nome_cliente"><br><br>
+        </div>
+        <div class = "form group">
+            <label for="nome_juridico">Nome Jurídico:</label>
+            <input type="text" id="nome_juridico" name="nome_juridico"><br><br>
+        </div>
+        <div class = "form group">
+            <label for="cnpj_cliente">CNPJ:</label>
+            <input type="text" id="cnpj_cliente" name="cnpj_cliente"><br><br>
+        </div>
+        <button type="submit" class="btn btn-primary btn-salvar">Salvar</button>
+    </fieldset>
+</form>
+</body>
+</html>
