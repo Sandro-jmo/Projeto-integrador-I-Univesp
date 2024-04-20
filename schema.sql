@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS cliente;
+
+CREATE TABLE cliente(
+id_cliente INTEGER PRIMARY KEY AUTOINCREMENT,
+nome_cliente VARCHAR NOT NULL,
+nome_juridico VARCHAR NOT NULL,
+cnpj VARCHAR NOT NULL
+);
