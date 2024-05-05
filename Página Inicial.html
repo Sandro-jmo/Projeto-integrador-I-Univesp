@@ -1,21 +1,69 @@
 <HTML>
-<meta charset="utf-8">
-	<head>
-		<link rel="Editor" href="Editor.css">
-		<img src="K_company.png" height="40%" width="20%">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body{
+        background-color: rgb(255, 251, 216);
+      }
+      .myDiv {
+        background-color: darkolivegreen;
+        text-align-last: center;
+        font-size: 30px;
+        color: rgb(242, 238, 202);
+        height: 200px;
+        border: 1px solid black;
+        
+      }
+      
+  .myDiv2{
 
+      background-color: rgb(223, 227, 202);
+      text-align: center;     
+      color: black;
+      height: 150px;
+      width:200px;
+      border: 1px solid black;
+      border-radius: 10px;
+      position:absolute;
+      left: 40%;
+      top: 40%
 
-    <HEAD> </HEAD>
+      }
+.myDiv3{
+  color:rgb(223, 227, 202);
+  position:absolute;
+  left:40%;
+  top: 80%
+}
+
+      </style>
+</head>
     <BODY>
-        <body style="background-color:DarkSeaGreen;">
-        <FORM METHOD="POST" ACTION = "">
- 
-           <P><INPUT VALUE="Cadastro" TYPE="BUTTON">  <INPUT VALUE="Projetos" TYPE="BUTTON">  <INPUT VALUE="Processos" TYPE="BUTTON">  <INPUT VALUE="Comunique-se" TYPE="BUTTON">  <INPUT VALUE="Documentos" TYPE="BUTTON"></P>
-           </FORM>
+      <div class="myDiv">
+      <input type="button" value="Cadastro"/>
+      <input type="button" value="Processo"/>
+      <input type="button" value="Projeto"/>
+      <input type="button" value="Comunique-se"/>
+      <input type="button" value="Documentos"/>    
+      <h1> K Company</h1>
+      </div>   
+
+     <FORM METHOD="POST" ACTION = "">
+        <div class="myDiv2">
+          <P><INPUT VALUE="" NAME="EMAIL" PLACEHOLDER="E-mail" TYPE="TEXT"></P>
+          <P><INPUT value="" NAME="SENHA" placeholder=Senha TYPE = "PASSWORD"></P>
+          <P><A HREF = "">Esqueceu sua senha?</A></P>
+          <input type="button" value="Entrar"/>
+          </div>
+
+          </FORM>
       <br>
 	<footer>
-		<a href="Index.html">"Página Inicial"</a>
-		<p style="color:white;"align="center"> Projeto Integrador UNIVESP_K Company
-                <p style="color:white;"align="center"> E-mail: <a style="color:white;" href=mailto:kcompany@gmail.com"> kcompany@gmail.com </a> </p>
+    <div class="myDiv3">
+    <p> Projeto Integrador UNIVESP_K Company </p>
+     <p> E-mail: <a href="mailto:kcompany@gmail.com"> kcompany@gmail.com </a> </p> 
+    </div>
+  </footer>
+
    </BODY>
 </HTML>
